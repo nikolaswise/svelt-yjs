@@ -1,5 +1,5 @@
 import * as Y from 'yjs';
-import { readable as svelteReadable } from 'svelte/store';
+import { readable as svelteReadable } from 'sapper/store';
 
 function readable(undoManager: Y.UndoManager) {
   const stackCount = svelteReadable({ undoSize: 0, redoSize: 0 }, (set) => {
