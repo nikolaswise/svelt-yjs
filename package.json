@@ -51,6 +51,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "node-tsc": "0.0.14",
+    "ntypescript": "^1.201706190042.1",
     "tslib": "~2.0.1",
     "yjs": "^13.4.1"
   },
